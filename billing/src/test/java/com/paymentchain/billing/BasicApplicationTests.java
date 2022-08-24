@@ -11,6 +11,8 @@ public class BasicApplicationTests {
 
 	@Test
 	public void contextLoads() {
+		String message = "Chapalapachala Perkin";
+		Assert.assertNotNull(message);
 	}
 
 }
